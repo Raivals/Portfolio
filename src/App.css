@@ -275,6 +275,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     font-size: 20px;
     margin-bottom: 16px;
     display: inline-block;
+    position: relative;
+    right: 20%;
 }
 .banner h1 {
     font-size: 65px;
@@ -282,14 +284,17 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 20px;
+    margin-left: 5%;
     display: block;
+    width: 50%;
 }
 .banner p {
     color: #b8b8b8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    width: 96%;
+    width: 50%;
+    margin-left: 5%;
 }
 .banner button {
     color: #fff;
@@ -311,6 +316,10 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 .banner img {
     animation: updown 3s linear infinite;
+    position: relative;
+    left: 25%;
+    width: 400px;
+    top: -400px;
 }
 @keyframes updown {
     0% {
