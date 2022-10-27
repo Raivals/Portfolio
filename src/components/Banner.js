@@ -55,8 +55,9 @@ export const Banner = () => {
                             <span className="wrap">{text}</span>
                         </h1>
                         <p>
-                            About me
-                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            Recently gratuate from a web developement formation,
+                            I learned to develop with real situations projects.
+                            I Mainly work with html5 / css (scss) / React.
                         </p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
