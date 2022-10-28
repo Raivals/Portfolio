@@ -34,7 +34,6 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>xxxxxxxxxxxxxxxxxxxxxx</p>
                             <Carousel
                                 responsive={responsive}
                                 infinite={true}
