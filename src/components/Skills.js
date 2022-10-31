@@ -1,9 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import meter1 from '../assets/img/meter1.svg'
-import meter2 from '../assets/img/meter2.svg'
-import meter3 from '../assets/img/meter3.svg'
 import colorSharp from '../assets/img/color-sharp.png'
 
 export const Skills = () => {
@@ -40,16 +37,72 @@ export const Skills = () => {
                                 className="skills-slider"
                             >
                                 <div className="item">
-                                    <img src={meter1} alt="Image1" />
+                                    <div className="circle-wrap">
+                                        <div className="circle">
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div class="mask full">
+                                                <div class="fill"></div>
+                                            </div>
+                                            <div class="inside-circle">
+                                                {' '}
+                                                90%{' '}
+                                            </div>
+                                        </div>
+                                    </div>
                                     <h5>Autonomy</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image2" />
+                                    <div className="circle-wrap">
+                                        <div className="circle">
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div class="mask full-1">
+                                                <div class="fill"></div>
+                                            </div>
+                                            <div class="inside-circle">
+                                                {' '}
+                                                70%{' '}
+                                            </div>
+                                        </div>
+                                    </div>
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image3" />
+                                    <div className="circle-wrap">
+                                        <div className="circle">
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div class="mask full-2">
+                                                <div class="fill"></div>
+                                            </div>
+                                            <div class="inside-circle">
+                                                {' '}
+                                                80%{' '}
+                                            </div>
+                                        </div>
+                                    </div>
                                     <h5>Management</h5>
+                                </div>
+                                <div className="item">
+                                    <div className="circle-wrap">
+                                        <div className="circle">
+                                            <div className="mask half">
+                                                <div className="fill"></div>
+                                            </div>
+                                            <div class="mask full">
+                                                <div class="fill"></div>
+                                            </div>
+                                            <div class="inside-circle">
+                                                {' '}
+                                                90%{' '}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5>Teamwork</h5>
                                 </div>
                             </Carousel>
                         </div>

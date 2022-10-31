@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import navIcon2 from '../assets/img/github.png'
+import navIcon3 from '../assets/img/nav-icon3.png'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
@@ -72,10 +72,18 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/romain-b-2a1b16153/">
+                            <a
+                                href="https://www.linkedin.com/in/romain-b-2a1b16153/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 <img src={navIcon1} alt="" />
                             </a>
-                            <a href="https://github.com/Raivals">
+                            <a
+                                href="https://github.com/Raivals"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 <img src={navIcon2} alt="" />
                             </a>
                             <a href="mailto:romain71.contact@gmail.com">
