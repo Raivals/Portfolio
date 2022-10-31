@@ -254,9 +254,10 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+
 .banner {
     margin-top: 0;
-    padding: 260px 0 100px 0;
+    padding: 200px 0 100px 0;
     background-image: url('./assets/img/banner-bg.png');
     background-position: top center;
     background-size: cover;
@@ -318,7 +319,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     animation: updown 3s linear infinite;
     position: relative;
     left: 25%;
-    top: -400px;
+    top: -300px;
 }
 @keyframes updown {
     0% {
@@ -336,6 +337,69 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
+.circle-wrap {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: #151515;
+    border-radius: 50%;
+    border: 1px solid #151515;
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: purple;
+}
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(160deg);
+}
+.mask.full-1 {
+    animation: fill ease-in-out 3s;
+    transform: rotate(100deg);
+}
+.mask.full-2 {
+    animation: fill ease-in-out 3s;
+    transform: rotate(125deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(150deg);
+    }
+}
+
+.circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #151515;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+
 .skill {
     padding: 0 0 50px 0;
     position: relative;
