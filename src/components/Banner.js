@@ -59,8 +59,6 @@ export const Banner = () => {
                             I learned to develop with real situations projects.
                             I Mainly work with html5 / css (scss) / React.
                         </p>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
                     </Col>
                 </Row>
