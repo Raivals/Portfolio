@@ -8,7 +8,7 @@ export const Banner = () => {
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const [index, setIndex] = useState(1)
-    const toRotate = ['Web Developer', 'Web Designer', 'UI/UX Designer']
+    const toRotate = ['Web Developer', 'Web Developer', 'Web Developer']
     const period = 2000
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export const Banner = () => {
             clearInterval(ticker)
         }
         // eslint-disable-next-line
-    }, [text, delta, index])
+    }, [text, index])
 
     const tick = () => {
         let i = loopNum % toRotate.length
@@ -35,7 +35,7 @@ export const Banner = () => {
             setDelta((prevDelta) => prevDelta / 2)
         }
 
-        if (isDeleting && updatedText === fullText) {
+        if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true)
             setIndex((prevIndex) => prevIndex - 1)
             setDelta(period)
