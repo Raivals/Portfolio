@@ -60,9 +60,9 @@ export const Banner = () => {
                             <span className="wrap">{text}</span>
                         </h1>
                         <p>
-                            Recently gratuate from a web developement formation,
-                            I learned to develop with real situations projects.
-                            I Mainly work with html5 / css (scss) / React.
+                            Recently gratuated from a web development course, I
+                            learned to develop with real situations projects. I
+                            mainly work with HTML5 / CSS (SCSS) / React.
                         </p>
                         <img src={headerImg} alt="Header Img" />
                     </Col>
