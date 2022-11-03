@@ -277,7 +277,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     margin-bottom: 25px;
     display: inline-block;
     position: relative;
-    right: 20%;
+    right: 15%;
 }
 .banner h1 {
     font-size: 65px;
@@ -294,7 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    width: 50%;
+    width: 60%;
     margin-left: 5%;
 }
 .banner button {
