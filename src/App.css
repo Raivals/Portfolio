@@ -95,10 +95,9 @@ p.danger {
 }
 /************ Navbar Css ************/
 span.Name {
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     left: 5%;
-    margin-top: -7px;
 }
 
 nav.navbar {
