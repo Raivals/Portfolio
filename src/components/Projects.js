@@ -7,6 +7,8 @@ import projectImg3 from '../assets/img/projectImg3.png'
 import projectImg4 from '../assets/img/projectImg4.png'
 import projectImg5 from '../assets/img/projectImg5.png'
 import projectImg6 from '../assets/img/projectImg6.png'
+import projectImg7 from '../assets/img/projectImg7.png'
+import projectImg8 from '../assets/img/projectImg8.png'
 
 export const Projects = () => {
     const projects = [
@@ -39,6 +41,16 @@ export const Projects = () => {
             title: 'Groupomania',
             description: 'Create a corporate social network.',
             imgUrl: projectImg6,
+        },
+        {
+            title: 'Timeline',
+            description: 'Create a dynamic timeline of classical musicians .',
+            imgUrl: projectImg7,
+        },
+        {
+            title: 'Music-Player',
+            description: 'Create a Music-player with TypeScript.',
+            imgUrl: projectImg8,
         },
     ]
     return (
