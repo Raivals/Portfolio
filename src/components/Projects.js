@@ -9,6 +9,8 @@ import projectImg5 from '../assets/img/projectImg5.png'
 import projectImg6 from '../assets/img/projectImg6.png'
 import projectImg7 from '../assets/img/projectImg7.png'
 import projectImg8 from '../assets/img/projectImg8.png'
+import projectImg9 from '../assets/img/projectImg9.png'
+import projectImg10 from '../assets/img/projectImg10.png'
 
 export const Projects = () => {
     const projects = [
@@ -51,6 +53,16 @@ export const Projects = () => {
             title: 'Music-Player',
             description: 'Create a Music-player with TypeScript.',
             imgUrl: projectImg8,
+        },
+        {
+            title: 'Meteo-app',
+            description: 'Meteo App designed with React & CSS Tailwind',
+            imgUrl: projectImg9,
+        },
+        {
+            title: 'Pokedex',
+            description: 'Pokédex designed with React TypeScript & Poké API',
+            imgUrl: projectImg10,
         },
     ]
     return (
