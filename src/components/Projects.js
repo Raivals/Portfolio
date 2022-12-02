@@ -11,6 +11,9 @@ import projectImg7 from '../assets/img/projectImg7.png'
 import projectImg8 from '../assets/img/projectImg8.png'
 import projectImg9 from '../assets/img/projectImg9.png'
 import projectImg10 from '../assets/img/projectImg10.png'
+import projectImg11 from '../assets/img/projectImg11.png'
+import projectImg12 from '../assets/img/projectImg12.png'
+import projectImg13 from '../assets/img/projectImg13.png'
 
 export const Projects = () => {
     const projects = [
@@ -63,6 +66,23 @@ export const Projects = () => {
             title: 'Pokedex',
             description: 'Pokédex designed with React TypeScript & Poké API',
             imgUrl: projectImg10,
+        },
+        {
+            title: 'Netflix',
+            description: 'Netflix clone App front page designed with React JS',
+            imgUrl: projectImg11,
+        },
+        {
+            title: 'Cart',
+            description:
+                'YuGiOh Cart designed with Vite + React TypeScript & bootstrap',
+            imgUrl: projectImg12,
+        },
+        {
+            title: 'TodoList',
+            description:
+                'Simple todoList dessigned with Vite + React TypeScript',
+            imgUrl: projectImg13,
         },
     ]
     return (
