@@ -14,6 +14,9 @@ import projectImg10 from '../assets/img/projectImg10.png'
 import projectImg11 from '../assets/img/projectImg11.png'
 import projectImg12 from '../assets/img/projectImg12.png'
 import projectImg13 from '../assets/img/projectImg13.png'
+import projectImg14 from '../assets/img/projectImg14.png'
+import projectImg15 from '../assets/img/projectImg15.png'
+import projectImg16 from '../assets/img/projectImg16.png'
 
 export const Projects = () => {
     const projects = [
@@ -83,6 +86,22 @@ export const Projects = () => {
             description:
                 'Simple todoList dessigned with Vite + React TypeScript',
             imgUrl: projectImg13,
+        },
+        {
+            title: 'Hangman Game',
+            description: 'Hangman Game dessigned with React TS + Vite & CSS',
+            imgUrl: projectImg14,
+        },
+        {
+            title: 'LearnDev',
+            description:
+                'Animated website designed with Vite + React JS CSS material-ui & Aos',
+            imgUrl: projectImg15,
+        },
+        {
+            title: 'Modern Sidebar',
+            description: 'Modern sidebar designed with HTML / CSS & JavaScript',
+            imgUrl: projectImg16,
         },
     ]
     return (
